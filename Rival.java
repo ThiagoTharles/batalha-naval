@@ -38,7 +38,7 @@ public class Rival {
                 grid[x][y+i] = 1;
             }
         }else if (orientation.equals("vertical")){
-            for (int i = y; i < size; i++) {
+            for (int i = 0; i < size; i++) {
                 grid[x+i][y] = 1;
             }
         }else{

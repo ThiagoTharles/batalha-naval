@@ -51,6 +51,7 @@ public class Player {
         }else{
             board[x][y] = 'A';
         }
+        printBoard();
     }
 
 
